@@ -1,0 +1,165 @@
+*,
+::before,
+::after {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 30px;
+    background-color: rgba(250, 235, 215, 0.849);
+
+}
+
+.nav {
+    padding: 30px;
+    background-color: #581845;
+
+}
+
+.nav .navdemo .logo {
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: #ffc30f;
+
+}
+
+.hr {
+    min-height: 3px;
+    background-color: #581845;
+}
+
+.nav .navdemo .logo span {
+    font-size: 40px;
+}
+
+
+.nav .navdemo a {
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: #ffc30f;
+}
+
+.nav .navdemo a:hover {
+
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.data {
+    box-sizing: border-box;
+
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.data1 {
+    background-image: url("profo.png");
+    background-color: transparent;
+    width: 30%;
+    padding-top: 40px;
+    margin-left: 10%;
+    border-right: 20px solid #ffc30f;
+    border-bottom: 20px solid #581845;
+    border-radius: 50%;
+
+}
+
+.data2 {
+    width: 50%;
+
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.data2 h1 {
+    font-size: 60px;
+    color: #581845;
+}
+
+.data2 h2 {
+
+    font-size: 25px;
+    color: #581845;
+
+}
+
+.exp {
+
+    margin-left: 10%;
+
+}
+
+.exp h1 {
+    font-size: 45px;
+    color: #581845;
+}
+
+.exp h2 {
+
+    color: #ffc30f;
+}
+
+.exp p {
+    color: #012662;
+    font-weight: 500;
+}
+
+.edu {
+    margin-left: 10%;
+
+}
+
+.edu ul {
+    font-size: 20px;
+    color: #012662;
+}
+
+.edu h1 {
+    font-size: 45px;
+    color: #581845;
+}
+
+.con {
+    margin-left: 10%;
+
+
+}
+
+.con h1 {
+    font-size: 45px;
+    color: #581845;
+
+
+
+}
+
+
+
+.con a {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 45px;
+    color: #012662;
+}
+
+.con a:hover {
+    color: #ffc30f;
+}
